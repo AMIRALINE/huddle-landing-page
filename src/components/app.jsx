@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div className="bg-mobile md:bg-desktop h-full">
-      <header className="flex m-5">
+    <div className="">
+      <header className="flex p-5 h-3/4">
         <svg
           className="color-white text-md h-12"
           xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,33 @@ function App() {
           </g>
         </svg>
       </header>
-      <div></div>
+      <div className="flex flex-col h-3/4 m-1 w-full">
+        <div className="flex flex-row">
+          <div className="w-1/2 text-gray-100 h-4/5">
+            <img src="src/assets/illustration-mockups.png" alt="" />
+          </div>
+          <div className="w-1/2 m-10">
+            <h2 className="text-gray-100 text-3xl pt-10">
+              Trust me! <br />
+              That's gonna be amazing
+            </h2>
+            <p className="text-gray-300 text-xl pt-2 my-10">
+              im amirali nemati this is one of my first projects and visit my
+              git hub to see more. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Aliquam ex ea ipsam enim, quas voluptatum
+              expedita praesentium illum, asperiores quisquam ut minima dolores
+              provident explicabo, delectus in deleniti dolorum modi?
+            </p>
+            <a
+              href="https://github.com/AMIRALINE/"
+              className="bg-gray-200 rounded-3xl py-4 px-7 m-t10 text-xl text-purple-500 inline-block"
+            >
+              {" "}
+              visit my github!
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

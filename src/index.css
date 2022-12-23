@@ -4,8 +4,10 @@
 
 .bg-mobile {
   background-image: url(./assets/bg-mobile.svg);
+  background-size: contain;
 }
 
 .bg-desktop {
   background-image: url(./assets//bg-desktop.svg);
+  background-size: contain;
 }
