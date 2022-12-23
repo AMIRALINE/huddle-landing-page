@@ -1,9 +1,9 @@
 function App() {
   return (
-    <div className="">
-      <header className="flex m-5 text-lg">
+    <div className="bg-mobile md:bg-desktop w-full">
+      <header className="flex m-5">
         <svg
-          className="color-white"
+          className="color-white text-md h-12"
           xmlns="http://www.w3.org/2000/svg"
           width="264"
           height="49pt"

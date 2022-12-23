@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-mobile {
+  background-image: url(./assets/bg-mobile.svg);
+}
+
+.bg-desktop {
+  background-image: url(./assets//bg-desktop.svg);
+}
