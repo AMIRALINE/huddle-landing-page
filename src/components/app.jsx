@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="bg-mobile md:bg-desktop w-full">
+    <div className="bg-mobile md:bg-desktop h-full">
       <header className="flex m-5">
         <svg
           className="color-white text-md h-12"
